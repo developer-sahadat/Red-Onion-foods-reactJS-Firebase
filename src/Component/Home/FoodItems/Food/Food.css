@@ -1,0 +1,23 @@
+.food {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  border: 10px;
+}
+.food img {
+  width: 200px;
+}
+.food h3 {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+.food p {
+  font-size: 14px;
+  color: gray;
+  padding-top: 5px;
+}
+.food h6 {
+  font-weight: 600;
+  font-size: 20px;
+}

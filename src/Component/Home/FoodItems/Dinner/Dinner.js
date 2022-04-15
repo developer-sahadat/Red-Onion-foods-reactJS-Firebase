@@ -1,7 +1,8 @@
 import React from "react";
 
 const Dinner = () => {
-  return <div></div>;
+  console.log("hi");
+  return <div>Hi</div>;
 };
 
 export default Dinner;

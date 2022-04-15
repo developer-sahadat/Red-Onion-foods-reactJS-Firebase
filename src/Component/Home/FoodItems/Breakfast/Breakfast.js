@@ -1,13 +1,17 @@
 import React from "react";
 import UseFood from "../../../../Hook/UseFood";
+import Food from "../Food/Food";
 
 const Breakfast = () => {
-  console.log("laka");
-  const [food, setFood] = UseFood();
+  const [food] = UseFood();
 
-  console.log(food, "hi");
-
-  return <div></div>;
+  return (
+    <div className="row row-cols-md-3 g-5">
+      {food.slice(0, 6).map((food) => (
+        <Food bFood={food} key={food.id} />
+      ))}
+    </div>
+  );
 };
 
 export default Breakfast;
