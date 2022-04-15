@@ -1,0 +1,19 @@
+.choose p {
+  color: gray;
+}
+.title {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+.title h3 {
+  font-size: 20px;
+  padding-left: 10px;
+}
+.seeMore {
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  color: #2ecc71;
+}
