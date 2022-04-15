@@ -11,7 +11,7 @@ const Banner = () => {
           style={{ width: "100%" }}
         />
 
-        <div class="centered">
+        <div className="centered">
           <h2>The best food is waiting for your belly</h2>
           <div>
             <InputGroup className=" w-75 mx-auto">
