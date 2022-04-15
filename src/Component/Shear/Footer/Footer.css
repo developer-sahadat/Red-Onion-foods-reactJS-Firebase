@@ -1,0 +1,18 @@
+footer {
+  background: #191919;
+  padding: 50px 0;
+}
+
+.footer-text p {
+  color: white;
+  line-height: 13px;
+}
+
+.copyRight span {
+  margin-right: 50px;
+  color: white;
+}
+
+.copyRight h6 {
+  color: rgb(188, 185, 185);
+}
