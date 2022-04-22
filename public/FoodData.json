@@ -48,6 +48,7 @@
     "img": "https://i.ibb.co/9y7Z92J/breakfast5.png"
   },
   {
+    "name": "lunch",
     "title": "Healthy Meal Plan",
     "description": "How We Dream About Our Future",
     "Price": 21.99,
@@ -55,6 +56,7 @@
     "img": "https://github.com/developer-sahadat/Red-Onion-foods-reactJS-Firebase/blob/main/src/Assets/images/lunch/lunch6.png?raw=true"
   },
   {
+    "name": "lunch",
     "title": "Fried Chicken Bento",
     "description": "How We Dream About Our Future",
     "Price": 9.99,
@@ -62,6 +64,7 @@
     "img": "https://github.com/developer-sahadat/Red-Onion-foods-reactJS-Firebase/blob/main/src/Assets/images/lunch/lunch5.png?raw=true"
   },
   {
+    "name": "lunch",
     "title": "Tarragon Rubbed Salmon",
     "description": "How We Dream About Our Future",
     "Price": 6.99,
@@ -69,6 +72,7 @@
     "img": "https://github.com/developer-sahadat/Red-Onion-foods-reactJS-Firebase/blob/main/src/Assets/images/lunch/lunch3.png?raw=true"
   },
   {
+    "name": "lunch",
     "title": "Indian Lunch",
     "description": "How We Dream About Our Future",
     "Price": 8.99,
@@ -76,6 +80,7 @@
     "img": "https://github.com/developer-sahadat/Red-Onion-foods-reactJS-Firebase/blob/main/src/Assets/images/lunch/lunch4.png?raw=true"
   },
   {
+    "name": "lunch",
     "title": "Beef Steak",
     "description": "How We Dream About Our Future",
     "Price": 15.99,
@@ -83,6 +88,7 @@
     "img": "https://github.com/developer-sahadat/Red-Onion-foods-reactJS-Firebase/blob/main/src/Assets/images/lunch/lunch1.png?raw=true"
   },
   {
+    "name": "lunch",
     "title": "Fried Chicken Bento",
     "description": "How We Dream About Our Future",
     "Price": 7.99,
@@ -90,6 +96,7 @@
     "img": "https://github.com/developer-sahadat/Red-Onion-foods-reactJS-Firebase/blob/main/src/Assets/images/lunch/lunch2.png?raw=true"
   },
   {
+    "name": "dinner",
     "title": "Salmon With Grapefruit ",
     "description": "How We Dream About Our Future",
     "Price": 21.99,
@@ -97,6 +104,7 @@
     "img": "https://github.com/developer-sahadat/Red-Onion-foods-reactJS-Firebase/blob/main/src/Assets/images/lunch/lunch6.png?raw=true"
   },
   {
+    "name": "dinner",
     "title": "Lemony Salmon Piccata",
     "description": "How We Dream About Our Future",
     "Price": 9.99,
@@ -104,6 +112,7 @@
     "img": "https://github.com/developer-sahadat/Red-Onion-foods-reactJS-Firebase/blob/main/src/Assets/images/lunch/lunch5.png?raw=true"
   },
   {
+    "name": "dinner",
     "title": "Pork Tenderloin",
     "description": "How We Dream About Our Future",
     "Price": 6.99,
@@ -111,6 +120,7 @@
     "img": "https://github.com/developer-sahadat/Red-Onion-foods-reactJS-Firebase/blob/main/src/Assets/images/lunch/lunch3.png?raw=true"
   },
   {
+    "name": "dinner",
     "title": "Indian Lunch",
     "description": "How We Dream About Our Future",
     "Price": 8.99,
@@ -118,6 +128,7 @@
     "img": "https://github.com/developer-sahadat/Red-Onion-foods-reactJS-Firebase/blob/main/src/Assets/images/lunch/lunch4.png?raw=true"
   },
   {
+    "name": "dinner",
     "title": "French Fries",
     "description": "How We Dream About Our Future",
     "Price": 15.99,
@@ -125,6 +136,7 @@
     "img": "https://github.com/developer-sahadat/Red-Onion-foods-reactJS-Firebase/blob/main/src/Assets/images/lunch/lunch1.png?raw=true"
   },
   {
+    "name": "dinner",
     "title": "Garlic Butter",
     "description": "How We Dream About Our Future",
     "Price": 7.99,

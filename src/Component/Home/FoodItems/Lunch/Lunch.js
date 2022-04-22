@@ -1,13 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import UseFood from "../../../../Hook/UseFood";
 import Food from "../Food/Food";
 
 const Lunch = () => {
   const [food] = UseFood();
+  const [lunch, setLunch] = useState([]);
+
+  useEffect(() => {
+    const lunchFood = food.filter(
+      (foods) => foods.name.toLowerCase() === "breakfast"
+    );
+    setLunch(lunchFood);
+  }, [food]);
+
   return (
     <div>
       <div className="row row-cols-md-3 g-5">
-        {food.slice(6, 12).map((food) => (
+        {lunch.map((food) => (
           <Food bFood={food} key={food.id} />
         ))}
       </div>
