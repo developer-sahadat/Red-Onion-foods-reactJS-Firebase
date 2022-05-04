@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.product-detail-container {
+  font-family: "Roboto", sans-serif;
+  padding: 60px 0;
+}
+
+.product-detail-container h2 {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 45px;
+}
+.product-detail-container p {
+  font-size: 16px;
+  color: gray;
+  line-height: 1.9;
+  width: 80%;
+}
+.minus-plus-btn {
+  margin: 25px 0;
+}
+.minus-plus-btn .price {
+  margin-right: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.minus-plus {
+  border: 1px solid #dadada;
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+.minus-plus button {
+  margin: 0 10px;
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+}
+.add-cart-btn {
+  background: #f91944;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 50px;
+  border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .product-detail-container {
+    padding: 20px 0;
+  }
+  .product-detail-container p {
+    width: 100%;
+  }
+}

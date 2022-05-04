@@ -5,8 +5,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import "./Header.css";
 import { Link } from "react-router-dom";
+import { useAuthState } from "react-firebase-hooks/auth";
+import auth from "../../../Firebase/Init";
+import { signOut } from "firebase/auth";
 
 const Header = () => {
+  const [user, loading, error] = useAuthState(auth);
   return (
     <nav className="p-3 nav-container">
       <Navbar bg="white" expand="lg">
@@ -20,17 +24,47 @@ const Header = () => {
               <Nav.Link href="#home">
                 <FontAwesomeIcon icon={faShoppingCart} />
               </Nav.Link>
-              <Nav.Link className="fw-bolder" as={Link} to="/login">
-                Login
-              </Nav.Link>
-              <Nav.Link
-                style={{ color: "white", padding: "7px 30px" }}
-                className="signUpBtn"
-                as={Link}
-                to="/signUp"
-              >
-                Sign Up
-              </Nav.Link>
+              {user ? (
+                ""
+              ) : (
+                <Nav.Link className="fw-bolder" as={Link} to="/login">
+                  Login
+                </Nav.Link>
+              )}
+              {user ? (
+                <button
+                  style={{
+                    color: "white",
+                    padding: "7px 30px",
+                    border: "none",
+                  }}
+                  className="signUpBtn"
+                  onClick={() => signOut(auth)}
+                >
+                  Sign Out
+                </button>
+              ) : (
+                <Nav.Link
+                  style={{ color: "white", padding: "7px 30px" }}
+                  className="signUpBtn"
+                  as={Link}
+                  to="/signUp"
+                >
+                  Sign Up
+                </Nav.Link>
+              )}
+              {user ? (
+                <Nav.Link
+                  style={{ color: "white", padding: "7px 30px" }}
+                  className="signUpBtn"
+                  as={Link}
+                  to="/profile"
+                >
+                  Profile
+                </Nav.Link>
+              ) : (
+                ""
+              )}
             </Nav>
           </Navbar.Collapse>
         </Container>

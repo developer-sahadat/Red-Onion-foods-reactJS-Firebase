@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Food.css";
 
 const Food = ({ bFood }) => {
-  const { title, img, description, Price } = bFood;
+  const { title, img, description, Price, _id } = bFood;
   return (
     <div>
       <div
@@ -17,7 +18,9 @@ const Food = ({ bFood }) => {
         }`}
       >
         <div>
-          <img src={img} className="img-fluid" alt="" />
+          <Link to={`/product-detail/${_id}`}>
+            <img src={img} className="img-fluid" alt="" />
+          </Link>
           <h3>{title}</h3>
           <p>{description}</p>
           <h6>${Price}</h6>
